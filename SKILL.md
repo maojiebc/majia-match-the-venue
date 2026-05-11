@@ -3,7 +3,7 @@ name: majia-match-the-venue
 description: Match The Venue（MTV）— 给国内城市的"高端培训/商学院/咨询/私董会"事件匹配最合适的酒店宴会厅，靠公开活动证据导航。喂活动链接（微信公众号/活动家/活动行/任意 URL）即可抽取"哪家机构 在 哪家酒店 办了什么课"，入库打分后输出选址推荐报告。当用户提到"找培训酒店"、"高管培训场地"、"会场推荐"、"宴会厅选址"、"培训选址"、"高端培训去哪开"、"match the venue"、"majia-match-the-venue"、"/mtv" 时触发。首发覆盖上海 6 个区（浦东/静安/黄浦/徐汇/长宁/闵行虹桥），跟踪 19 家高端机构（长江/中欧/得到/混沌/麦肯锡/贝恩/BCG/正和岛等）。不做酒店预订、不做询价撮合，只做"前人选址经验证据库"。
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   author: "超级马甲 / maojiebc"
 ---
 
@@ -98,3 +98,20 @@ python scripts/report.py \
 - 打分细则 → `references/scoring-rules.md`
 - 观察机构清单 → `references/observed-orgs.md`
 - 录入工作流（含去重、审核、版权） → `references/ingest-workflow.md`
+
+## 👤 作者 / 联系
+
+**马甲（@maojiebc）** · 超级马甲
+
+如果这份 skill 帮到你，欢迎在以下任意渠道找我交流踩坑实录、提需求、报 bug，也欢迎勾兑用户运营 / 数据中台 / BI 工程的实战经验：
+
+| 渠道 | 链接 |
+|---|---|
+| 📧 Email | [m9224@163.com](mailto:m9224@163.com) |
+| 🐙 GitHub | [github.com/maojiebc](https://github.com/maojiebc) |
+| 🪝 ClawHub | [clawhub.ai/p/maojiebc](https://clawhub.ai/p/maojiebc) |
+| 🐦 X | [@maojiebc](https://x.com/maojiebc) |
+| 📕 小红书 | [超级马甲](https://xhslink.com/m/4fQMJeHHWKC) |
+| 📰 微信公众号 | **超级马甲** |
+
+> 这份 skill 是 14 年用户运营 + 一线选址走访沉淀出来的，问题/合作随时聊。
