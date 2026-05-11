@@ -1,6 +1,10 @@
 ---
 name: majia-match-the-venue
 description: Match The Venue（MTV）— 给国内城市的"高端培训/商学院/咨询/私董会"事件匹配最合适的酒店宴会厅，靠公开活动证据导航。喂活动链接（微信公众号/活动家/活动行/任意 URL）即可抽取"哪家机构 在 哪家酒店 办了什么课"，入库打分后输出选址推荐报告。当用户提到"找培训酒店"、"高管培训场地"、"会场推荐"、"宴会厅选址"、"培训选址"、"高端培训去哪开"、"match the venue"、"majia-match-the-venue"、"/mtv" 时触发。首发覆盖上海 6 个区（浦东/静安/黄浦/徐汇/长宁/闵行虹桥），跟踪 19 家高端机构（长江/中欧/得到/混沌/麦肯锡/贝恩/BCG/正和岛等）。不做酒店预订、不做询价撮合，只做"前人选址经验证据库"。
+license: MIT
+metadata:
+  version: "0.1.0"
+  author: "超级马甲 / maojiebc"
 ---
 
 # majia-match-the-venue：高端培训选址证据导航

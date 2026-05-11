@@ -86,13 +86,22 @@ python scripts/report.py --query "上海 100 人 课桌式 LED" --top 5 --out re
 
 录入流程见 [references/ingest-workflow.md](references/ingest-workflow.md)。
 
-## 联系
+## 👤 作者 / 联系
 
-- 公众号：超级马甲
-- 小红书：https://xhslink.com/m/4fQMJeHHWKC
-- X / Twitter：https://x.com/maojiebc
-- GitHub：https://github.com/maojiebc
-- Email：majia9224@gmail.com
+**马甲（@maojiebc）** · 超级马甲
+
+如果这份 skill 帮到你，欢迎在以下任意渠道找我交流踩坑实录、提需求、报 bug，也欢迎勾兑用户运营 / 数据中台 / BI 工程的实战经验：
+
+| 渠道 | 链接 |
+|---|---|
+| 📧 Email | [m9224@163.com](mailto:m9224@163.com) |
+| 🐙 GitHub | [github.com/maojiebc](https://github.com/maojiebc) |
+| 🪝 ClawHub | [clawhub.ai/p/maojiebc](https://clawhub.ai/p/maojiebc) |
+| 🐦 X | [@maojiebc](https://x.com/maojiebc) |
+| 📕 小红书 | [超级马甲](https://xhslink.com/m/4fQMJeHHWKC) |
+| 📰 微信公众号 | **超级马甲** |
+
+> 这份 skill 是 14 年用户运营 + 一线选址走访沉淀出来的，问题/合作随时聊。
 
 ## License
 
