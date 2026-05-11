@@ -1,0 +1,846 @@
+{
+  "schema_version": "0.1",
+  "updated_at": "2026-05-11",
+  "venues": [
+    {
+      "id": "shanghai-ritz-carlton-pudong",
+      "name": "上海浦东丽思卡尔顿酒店",
+      "city": "上海",
+      "district": "浦东新区",
+      "address": "上海市浦东新区世纪大道8号上海国金中心",
+      "location": {"lat": 31.236, "lng": 121.504},
+      "brand": "Ritz-Carlton",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "丽思卡尔顿大宴会厅",
+          "area_sqm": 1100,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 900, "classroom": 450, "round_table": 600, "u_shape": null, "cocktail": 1200},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "传统宴会厅格局，PPT 培训需提前确认主屏抬升方案"},
+          "price_range_cny": {"half_day": [80000, 140000], "full_day": [120000, 220000], "tea_break_per_pax": [180, 280], "lunch_per_pax": [580, 980], "note": "估算区间，实际以销售报价为准"}
+        }
+      ],
+      "official_source": "https://www.ritzcarlton.com/zh-cn/hotels/shapn-the-ritz-carlton-shanghai-pudong/",
+      "tags": ["陆家嘴", "外资奢华", "适合发布会", "适合战略闭门会"],
+      "training_fit_notes": "陆家嘴核心地标，外资奢华品牌，适合品牌发布与高净值私董会；大型课桌式培训需提前与销售确认屏幕方案。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-mandarin-oriental-pudong",
+      "name": "上海浦东文华东方酒店",
+      "city": "上海",
+      "district": "浦东新区",
+      "address": "上海市浦东新区滨江大道111号",
+      "location": {"lat": 31.244, "lng": 121.494},
+      "brand": "Mandarin Oriental",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "文华大宴会厅",
+          "area_sqm": 1500,
+          "ceiling_m": 9,
+          "pillar_free": true,
+          "capacity": {"theater": 1200, "classroom": 600, "round_table": 800, "u_shape": null, "cocktail": 1600},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "层高与无柱条件好，培训友好"},
+          "price_range_cny": {"half_day": [90000, 160000], "full_day": [140000, 260000], "tea_break_per_pax": [200, 320], "lunch_per_pax": [680, 1080], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.mandarinoriental.com.cn/shanghai/",
+      "tags": ["陆家嘴", "外资奢华", "江景", "适合战略闭门会", "适合发布会"],
+      "training_fit_notes": "面对外滩天际线，江景资源稀缺；大宴会厅无柱、层高足，培训和发布会两相宜。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-park-hyatt",
+      "name": "上海柏悦酒店",
+      "city": "上海",
+      "district": "浦东新区",
+      "address": "上海市浦东新区世纪大道100号金茂大厦87-93层",
+      "location": {"lat": 31.236, "lng": 121.502},
+      "brand": "Park Hyatt",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "宴会厅",
+          "area_sqm": 460,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 350, "classroom": 180, "round_table": 220, "u_shape": null, "cocktail": 450},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "高空中型宴会厅，更适合中型闭门会"},
+          "price_range_cny": {"half_day": [60000, 100000], "full_day": [90000, 160000], "tea_break_per_pax": [200, 320], "lunch_per_pax": [680, 1080], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.hyatt.com/zh-CN/hotel/china/park-hyatt-shanghai/shgph",
+      "tags": ["陆家嘴", "金茂大厦", "高空", "适合战略闭门会", "适合私董会"],
+      "training_fit_notes": "陆家嘴高空酒店，氛围与隐秘性极佳，适合 100-200 人闭门战略营、私董会；不适合 300+ 人课桌式培训。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-grand-hyatt-jinmao",
+      "name": "上海金茂君悦大酒店",
+      "city": "上海",
+      "district": "浦东新区",
+      "address": "上海市浦东新区世纪大道88号金茂大厦53-87层",
+      "location": {"lat": 31.236, "lng": 121.502},
+      "brand": "Grand Hyatt",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "君悦大宴会厅",
+          "area_sqm": 1100,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 900, "classroom": 450, "round_table": 550, "u_shape": null, "cocktail": 1200},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "传统宴会厅格局"},
+          "price_range_cny": {"half_day": [60000, 110000], "full_day": [90000, 180000], "tea_break_per_pax": [160, 240], "lunch_per_pax": [480, 780], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.hyatt.com/zh-CN/hotel/china/grand-hyatt-shanghai/shagh",
+      "tags": ["陆家嘴", "金茂大厦", "适合大型培训", "适合发布会"],
+      "training_fit_notes": "金茂大厦内大型宴会厅，企业大型年会、发布会、培训密度高；陆家嘴交通便利。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-kerry-pudong",
+      "name": "上海浦东嘉里大酒店",
+      "city": "上海",
+      "district": "浦东新区",
+      "address": "上海市浦东新区花木路1388号",
+      "location": {"lat": 31.207, "lng": 121.547},
+      "brand": "Shangri-La / Kerry Hotels",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "嘉里大宴会厅",
+          "area_sqm": 2000,
+          "ceiling_m": 10,
+          "pillar_free": true,
+          "capacity": {"theater": 1800, "classroom": 800, "round_table": 1000, "u_shape": null, "cocktail": 2200},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "超大无柱厅，层高 10 米，培训和发布会都顶配"},
+          "price_range_cny": {"half_day": [80000, 140000], "full_day": [120000, 220000], "tea_break_per_pax": [180, 280], "lunch_per_pax": [480, 780], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.shangri-la.com/cn/shanghai/kerryhotelpudong/",
+      "tags": ["花木", "国展中心", "超大无柱", "适合千人发布会", "适合大型培训"],
+      "training_fit_notes": "上海最大无柱宴会厅之一，超大无柱+10米层高，500-1500 人课桌式培训与产品发布双适配；近上海国展中心。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-anadi",
+      "name": "上海阿纳迪酒店",
+      "city": "上海",
+      "district": "浦东新区",
+      "address": "上海市浦东新区康桥东路99号",
+      "location": {"lat": 31.121, "lng": 121.580},
+      "brand": "Anadi / 独立品牌",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "阿纳迪宴会厅",
+          "area_sqm": 800,
+          "ceiling_m": 8,
+          "pillar_free": true,
+          "capacity": {"theater": 700, "classroom": 350, "round_table": 450, "u_shape": null, "cocktail": 900},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "得到等机构反复使用，培训设施完善"},
+          "price_range_cny": {"half_day": [50000, 90000], "full_day": [80000, 140000], "tea_break_per_pax": [150, 230], "lunch_per_pax": [380, 580], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.anandihotel.com/",
+      "tags": ["康桥", "瑜伽禅修", "适合闭门集训", "得到常用"],
+      "training_fit_notes": "独立设计酒店，远离市区适合多日闭门集训；得到等高端培训机构反复选择；交通需提前安排班车。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-jinganshangrila",
+      "name": "上海静安香格里拉大酒店",
+      "city": "上海",
+      "district": "静安区",
+      "address": "上海市静安区华山路1218号",
+      "location": {"lat": 31.224, "lng": 121.443},
+      "brand": "Shangri-La",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "静安大宴会厅",
+          "area_sqm": 1100,
+          "ceiling_m": 10,
+          "pillar_free": true,
+          "capacity": {"theater": 1695, "classroom": 770, "round_table": 600, "u_shape": null, "cocktail": 1800},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "宴会厅层高 10 米，主屏抬升空间充足"},
+          "price_range_cny": {"half_day": [40000, 80000], "full_day": [60000, 150000], "tea_break_per_pax": [80, 150], "lunch_per_pax": [380, 680], "note": "估算区间，实际以销售报价为准"}
+        }
+      ],
+      "official_source": "https://www.shangri-la.com/cn/shanghai/jinganshangrila/meetings-events/event-spaces/",
+      "tags": ["静安寺", "大屏", "高层高", "无柱", "适合战略闭门会", "适合发布会"],
+      "training_fit_notes": "层高 10 米使主屏可抬升，PPT 不被前排遮挡；静安核心区，交通便利。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-four-seasons-weihai",
+      "name": "上海四季酒店",
+      "city": "上海",
+      "district": "静安区",
+      "address": "上海市静安区威海路500号",
+      "location": {"lat": 31.232, "lng": 121.466},
+      "brand": "Four Seasons",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "四季宴会厅",
+          "area_sqm": 700,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 600, "classroom": 280, "round_table": 360, "u_shape": null, "cocktail": 700},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "传统宴会厅格局"},
+          "price_range_cny": {"half_day": [70000, 130000], "full_day": [110000, 200000], "tea_break_per_pax": [200, 320], "lunch_per_pax": [680, 1080], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.fourseasons.com/zh/shanghai/",
+      "tags": ["人民广场", "外资奢华", "适合战略闭门会", "适合发布会"],
+      "training_fit_notes": "人民广场/南京西路一线，外资奢华服务标准；适合 200-400 人战略营、企业大学班开学典礼。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-puli",
+      "name": "上海璞丽酒店",
+      "city": "上海",
+      "district": "静安区",
+      "address": "上海市静安区常德路1号",
+      "location": {"lat": 31.230, "lng": 121.451},
+      "brand": "The PuLi",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "璞丽宴会厅",
+          "area_sqm": 500,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 400, "classroom": 200, "round_table": 250, "u_shape": null, "cocktail": 500},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "精品酒店，规模偏小"},
+          "price_range_cny": {"half_day": [50000, 90000], "full_day": [80000, 150000], "tea_break_per_pax": [180, 280], "lunch_per_pax": [580, 980], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.thepuli.com/",
+      "tags": ["静安寺", "都市精品", "适合私董会", "适合中型闭门会"],
+      "training_fit_notes": "都市精品酒店，氛围私密；适合 80-200 人私董会、闭门战略营；不适合大型课桌式培训。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-st-regis-jingan",
+      "name": "上海静安瑞吉酒店",
+      "city": "上海",
+      "district": "静安区",
+      "address": "上海市静安区北京西路1008号",
+      "location": {"lat": 31.231, "lng": 121.460},
+      "brand": "St. Regis",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "瑞吉大宴会厅",
+          "area_sqm": 1000,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 800, "classroom": 400, "round_table": 500, "u_shape": null, "cocktail": 1000},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "新建酒店，硬件较新"},
+          "price_range_cny": {"half_day": [70000, 130000], "full_day": [110000, 200000], "tea_break_per_pax": [200, 320], "lunch_per_pax": [680, 1080], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.marriott.com.cn/hotels/travel/shasj-the-st-regis-shanghai-jingan/",
+      "tags": ["南京西路", "外资奢华", "管家服务", "适合大型培训", "适合发布会"],
+      "training_fit_notes": "南京西路核心地段，瑞吉管家服务标准；新建酒店硬件较新，适合 300-500 人课桌式培训与发布会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-bulgari",
+      "name": "上海宝格丽酒店",
+      "city": "上海",
+      "district": "静安区",
+      "address": "上海市静安区河南北路1号（苏州河畔）",
+      "location": {"lat": 31.247, "lng": 121.483},
+      "brand": "Bulgari",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "宝格丽宴会厅",
+          "area_sqm": 700,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 500, "classroom": 240, "round_table": 320, "u_shape": null, "cocktail": 700},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "精品级硬件配置"},
+          "price_range_cny": {"half_day": [100000, 180000], "full_day": [160000, 280000], "tea_break_per_pax": [280, 420], "lunch_per_pax": [880, 1280], "note": "估算区间，奢侈品牌定价"}
+        }
+      ],
+      "official_source": "https://www.bulgarihotels.com/shanghai",
+      "tags": ["苏州河畔", "奢侈品牌", "适合品牌发布会", "适合高净值私董会"],
+      "training_fit_notes": "意大利奢侈品牌酒店，品牌发布、高净值客户答谢、奢侈品行业活动首选；不适合性价比型培训。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-peninsula",
+      "name": "上海半岛酒店",
+      "city": "上海",
+      "district": "黄浦区",
+      "address": "上海市黄浦区中山东一路32号",
+      "location": {"lat": 31.244, "lng": 121.488},
+      "brand": "The Peninsula",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "半岛大宴会厅",
+          "area_sqm": 800,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 650, "classroom": 320, "round_table": 400, "u_shape": null, "cocktail": 800},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "历史地段酒店，硬件需提前沟通"},
+          "price_range_cny": {"half_day": [90000, 160000], "full_day": [140000, 260000], "tea_break_per_pax": [220, 340], "lunch_per_pax": [780, 1180], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.peninsula.com/zh-cn/shanghai/",
+      "tags": ["外滩", "外资奢华", "历史建筑", "适合发布会", "适合答谢晚宴"],
+      "training_fit_notes": "外滩唯一独立奢华酒店，外资品牌发布、高客单价客户答谢、行业峰会标志性选择。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-waldorf-astoria",
+      "name": "上海外滩华尔道夫酒店",
+      "city": "上海",
+      "district": "黄浦区",
+      "address": "上海市黄浦区中山东一路2号",
+      "location": {"lat": 31.240, "lng": 121.487},
+      "brand": "Waldorf Astoria",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "华尔道夫宴会厅",
+          "area_sqm": 600,
+          "ceiling_m": null,
+          "pillar_free": null,
+          "capacity": {"theater": 450, "classroom": 220, "round_table": 300, "u_shape": null, "cocktail": 600},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "历史保护建筑，硬件提前沟通"},
+          "price_range_cny": {"half_day": [90000, 160000], "full_day": [140000, 260000], "tea_break_per_pax": [220, 340], "lunch_per_pax": [780, 1180], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.hilton.com/zh-hans/hotels/shawawa-waldorf-astoria-shanghai-on-the-bund/",
+      "tags": ["外滩", "外资奢华", "历史保护建筑", "适合发布会"],
+      "training_fit_notes": "外滩 2 号原英国总会建筑，历史氛围浓；适合企业品牌发布、高级别客户答谢；硬件需提前确认。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-fairmont-peace",
+      "name": "上海和平饭店",
+      "city": "上海",
+      "district": "黄浦区",
+      "address": "上海市黄浦区南京东路20号",
+      "location": {"lat": 31.241, "lng": 121.486},
+      "brand": "Fairmont",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "龙凤厅",
+          "area_sqm": 500,
+          "ceiling_m": null,
+          "pillar_free": null,
+          "capacity": {"theater": 400, "classroom": 180, "round_table": 250, "u_shape": null, "cocktail": 500},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "high", "notes": "历史保护建筑，柱位与遮挡需现场踏勘"},
+          "price_range_cny": {"half_day": [60000, 110000], "full_day": [90000, 180000], "tea_break_per_pax": [180, 280], "lunch_per_pax": [580, 880], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.fairmont.cn/peace-hotel-shanghai/",
+      "tags": ["外滩", "南京东路", "历史保护建筑", "适合答谢晚宴", "适合发布会"],
+      "training_fit_notes": "上海最具历史感的酒店之一，适合品牌发布、答谢晚宴；不适合 PPT 密集型培训（柱位与遮挡风险）。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-langham-xintiandi",
+      "name": "上海新天地朗廷酒店",
+      "city": "上海",
+      "district": "黄浦区",
+      "address": "上海市黄浦区马当路99号",
+      "location": {"lat": 31.219, "lng": 121.473},
+      "brand": "Langham",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "朗廷宴会厅",
+          "area_sqm": 700,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 550, "classroom": 280, "round_table": 350, "u_shape": null, "cocktail": 700},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "硬件较新"},
+          "price_range_cny": {"half_day": [70000, 130000], "full_day": [110000, 210000], "tea_break_per_pax": [200, 320], "lunch_per_pax": [680, 1080], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.langhamhotels.com/zh-cn/langham/shanghai/",
+      "tags": ["新天地", "外资奢华", "适合战略闭门会", "适合发布会"],
+      "training_fit_notes": "新天地核心，氛围现代且私密；新天地内总裁班、商学院 EMBA 活动密集；适合 200-400 人战略营与品牌发布。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-andaz-xintiandi",
+      "name": "上海新天地安达仕酒店",
+      "city": "上海",
+      "district": "黄浦区",
+      "address": "上海市黄浦区嵩山路88号",
+      "location": {"lat": 31.222, "lng": 121.476},
+      "brand": "Andaz",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "安达仕宴会厅",
+          "area_sqm": 600,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 500, "classroom": 240, "round_table": 300, "u_shape": null, "cocktail": 600},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "设计感强，硬件较新"},
+          "price_range_cny": {"half_day": [50000, 90000], "full_day": [80000, 150000], "tea_break_per_pax": [180, 280], "lunch_per_pax": [580, 880], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.hyatt.com/zh-CN/hotel/china/andaz-xintiandi-shanghai/shaxx",
+      "tags": ["新天地", "设计感", "适合品牌发布", "适合创意类活动"],
+      "training_fit_notes": "凯悦旗下设计型品牌，氛围年轻；新天地核心，适合互联网/创意/消费品类品牌活动、闭门会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-westin-bund-center",
+      "name": "上海外滩中心威斯汀大饭店",
+      "city": "上海",
+      "district": "黄浦区",
+      "address": "上海市黄浦区河南中路88号",
+      "location": {"lat": 31.236, "lng": 121.490},
+      "brand": "Westin",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "威斯汀大宴会厅",
+          "area_sqm": 1000,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 850, "classroom": 400, "round_table": 500, "u_shape": null, "cocktail": 1000},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "国际酒店标准硬件"},
+          "price_range_cny": {"half_day": [50000, 90000], "full_day": [80000, 150000], "tea_break_per_pax": [160, 240], "lunch_per_pax": [480, 780], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.marriott.com.cn/hotels/travel/shawi-the-westin-bund-center-shanghai/",
+      "tags": ["人民广场", "外滩近端", "适合大型培训", "适合发布会"],
+      "training_fit_notes": "人民广场近外滩，地铁直达 10 号线；适合 300-500 人企业培训、产品发布会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-okura-garden",
+      "name": "上海花园饭店",
+      "city": "上海",
+      "district": "黄浦区",
+      "address": "上海市黄浦区茂名南路58号",
+      "location": {"lat": 31.218, "lng": 121.466},
+      "brand": "Okura Hotels",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "国际宴会厅",
+          "area_sqm": 1500,
+          "ceiling_m": 8,
+          "pillar_free": true,
+          "capacity": {"theater": 1200, "classroom": 600, "round_table": 800, "u_shape": null, "cocktail": 1600},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "上海老牌大型宴会厅"},
+          "price_range_cny": {"half_day": [40000, 80000], "full_day": [60000, 130000], "tea_break_per_pax": [120, 200], "lunch_per_pax": [380, 680], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.gardenhotelshanghai.com/",
+      "tags": ["淮海路", "日资管理", "大型宴会厅", "适合千人发布会", "适合大型培训"],
+      "training_fit_notes": "淮海中路核心地段，日资管理严谨，老牌大型宴会厅；500-1000 人级培训、年会、发布会经验丰富。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-jianguo",
+      "name": "上海建国宾馆",
+      "city": "上海",
+      "district": "徐汇区",
+      "address": "上海市徐汇区漕溪北路439号",
+      "location": {"lat": 31.196, "lng": 121.437},
+      "brand": "Jianguo (国内品牌)",
+      "star": 5,
+      "venue_class": "upscale",
+      "rooms": [
+        {
+          "name": "建国国际宴会厅",
+          "area_sqm": 800,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 700, "classroom": 350, "round_table": 450, "u_shape": null, "cocktail": 800},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "国内五星标准硬件"},
+          "price_range_cny": {"half_day": [25000, 50000], "full_day": [40000, 80000], "tea_break_per_pax": [80, 150], "lunch_per_pax": [280, 480], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.jianguoshanghai.com/",
+      "tags": ["徐家汇", "国内五星", "性价比", "适合中型培训"],
+      "training_fit_notes": "徐家汇地铁站近，国内五星价格友好；适合 200-400 人企业内训、行业会议；性价比方案。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-twelve-hengshan",
+      "name": "上海衡山路十二号豪华精选酒店",
+      "city": "上海",
+      "district": "徐汇区",
+      "address": "上海市徐汇区衡山路12号",
+      "location": {"lat": 31.207, "lng": 121.450},
+      "brand": "The Luxury Collection",
+      "star": 5,
+      "venue_class": "luxury",
+      "rooms": [
+        {
+          "name": "宴会厅",
+          "area_sqm": 350,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 280, "classroom": 140, "round_table": 180, "u_shape": null, "cocktail": 350},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "精品酒店规模偏小"},
+          "price_range_cny": {"half_day": [40000, 70000], "full_day": [60000, 110000], "tea_break_per_pax": [180, 280], "lunch_per_pax": [580, 880], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.marriott.com.cn/hotels/travel/shaxr-the-twelve-at-hengshan/",
+      "tags": ["衡复风貌区", "都市精品", "适合私董会", "适合中型闭门会"],
+      "training_fit_notes": "衡复风貌区精品酒店，氛围安静；适合 80-200 人私董会、咨询公司内训、小型闭门会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-pullman-xujiahui",
+      "name": "上海徐家汇美爵酒店",
+      "city": "上海",
+      "district": "徐汇区",
+      "address": "上海市徐汇区漕溪北路1号",
+      "location": {"lat": 31.198, "lng": 121.436},
+      "brand": "Pullman",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "宴会厅",
+          "area_sqm": 600,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 500, "classroom": 240, "round_table": 300, "u_shape": null, "cocktail": 600},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "国际品牌标准硬件"},
+          "price_range_cny": {"half_day": [30000, 60000], "full_day": [50000, 100000], "tea_break_per_pax": [120, 200], "lunch_per_pax": [380, 580], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://all.accor.com/hotel/7090/index.zh.shtml",
+      "tags": ["徐家汇", "雅高集团", "适合中型培训"],
+      "training_fit_notes": "徐家汇核心，雅高集团旗下，价格友好；适合 200-400 人企业培训、咨询公司客户会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-marriott-parkview",
+      "name": "上海虹桥宝华万豪酒店",
+      "city": "上海",
+      "district": "长宁区",
+      "address": "上海市长宁区福泉北路555号",
+      "location": {"lat": 31.202, "lng": 121.395},
+      "brand": "Marriott",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "万豪大宴会厅",
+          "area_sqm": 1000,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 800, "classroom": 400, "round_table": 500, "u_shape": null, "cocktail": 1000},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "国际酒店标准硬件"},
+          "price_range_cny": {"half_day": [45000, 80000], "full_day": [70000, 140000], "tea_break_per_pax": [150, 230], "lunch_per_pax": [480, 780], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.marriott.com.cn/hotels/travel/shahq-shanghai-marriott-hotel-parkview/",
+      "tags": ["虹桥", "古北", "适合大型培训", "适合发布会"],
+      "training_fit_notes": "虹桥古北地段，近虹桥商务区与机场；适合 300-500 人企业培训与产品发布。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-renaissance-zhongshan-park",
+      "name": "上海中山公园龙之梦万丽酒店",
+      "city": "上海",
+      "district": "长宁区",
+      "address": "上海市长宁区长宁路1018号",
+      "location": {"lat": 31.222, "lng": 121.425},
+      "brand": "Renaissance",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "万丽大宴会厅",
+          "area_sqm": 1000,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 800, "classroom": 400, "round_table": 500, "u_shape": null, "cocktail": 1000},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "万豪集团标准硬件"},
+          "price_range_cny": {"half_day": [40000, 75000], "full_day": [65000, 130000], "tea_break_per_pax": [140, 220], "lunch_per_pax": [380, 580], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.marriott.com.cn/hotels/travel/shazj-renaissance-shanghai-zhongshan-park-hotel/",
+      "tags": ["中山公园", "地铁2/3/4号线", "适合大型培训", "适合发布会"],
+      "training_fit_notes": "中山公园三轨交汇，交通极便利；万丽宴会厅适合 300-500 人企业培训、行业大会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-hongqiao-jinjiang",
+      "name": "上海虹桥锦江大酒店",
+      "city": "上海",
+      "district": "长宁区",
+      "address": "上海市长宁区延安西路2310号",
+      "location": {"lat": 31.207, "lng": 121.408},
+      "brand": "Jin Jiang Hotels",
+      "star": 5,
+      "venue_class": "upscale",
+      "rooms": [
+        {
+          "name": "锦江大宴会厅",
+          "area_sqm": 800,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 650, "classroom": 320, "round_table": 400, "u_shape": null, "cocktail": 800},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "国内五星标准硬件"},
+          "price_range_cny": {"half_day": [25000, 50000], "full_day": [40000, 80000], "tea_break_per_pax": [80, 150], "lunch_per_pax": [280, 480], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.jinjianghotels.com/hotel/HongQiaoShanghai/",
+      "tags": ["虹桥", "国内五星", "性价比", "适合中型培训"],
+      "training_fit_notes": "锦江集团旗舰，价格友好；适合 200-400 人企业内训、行业沙龙；近虹桥机场。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-hilton-hongqiao-yuanyi",
+      "name": "上海虹桥元一希尔顿酒店",
+      "city": "上海",
+      "district": "长宁区",
+      "address": "上海市长宁区福泉路1116号",
+      "location": {"lat": 31.204, "lng": 121.397},
+      "brand": "Hilton",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "希尔顿大宴会厅",
+          "area_sqm": 1500,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 1200, "classroom": 600, "round_table": 800, "u_shape": null, "cocktail": 1500},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "希尔顿大型宴会厅标准"},
+          "price_range_cny": {"half_day": [50000, 90000], "full_day": [80000, 150000], "tea_break_per_pax": [150, 230], "lunch_per_pax": [480, 780], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.hilton.com.cn/zh-hans/hotels/shgyzhi-hilton-shanghai-hongqiao/",
+      "tags": ["虹桥", "古北", "大型宴会厅", "适合千人发布会", "适合大型培训"],
+      "training_fit_notes": "虹桥地段最大宴会厅之一，希尔顿运营标准；适合 500-1200 人企业培训、年会、产品发布。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-hyatt-regency-hongqiao",
+      "name": "上海虹桥商务区凯悦酒店",
+      "city": "上海",
+      "district": "闵行区",
+      "address": "上海市闵行区申虹路999号",
+      "location": {"lat": 31.196, "lng": 121.331},
+      "brand": "Hyatt Regency",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "凯悦大宴会厅",
+          "area_sqm": 1100,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 900, "classroom": 450, "round_table": 550, "u_shape": null, "cocktail": 1100},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "凯悦集团标准硬件"},
+          "price_range_cny": {"half_day": [45000, 85000], "full_day": [75000, 150000], "tea_break_per_pax": [150, 230], "lunch_per_pax": [480, 780], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.hyatt.com/zh-CN/hotel/china/hyatt-regency-shanghai-hongqiao/shahr",
+      "tags": ["虹桥商务区", "近高铁", "适合大型培训", "适合发布会"],
+      "training_fit_notes": "虹桥商务区核心，近虹桥高铁/机场，外地参会方便；适合 400-700 人全国性培训、行业大会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-andaz-hongqiao",
+      "name": "上海虹桥安达仕酒店",
+      "city": "上海",
+      "district": "闵行区",
+      "address": "上海市闵行区申虹路700号",
+      "location": {"lat": 31.199, "lng": 121.333},
+      "brand": "Andaz",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "安达仕宴会厅",
+          "area_sqm": 700,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 580, "classroom": 280, "round_table": 360, "u_shape": null, "cocktail": 700},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "设计型酒店硬件较新"},
+          "price_range_cny": {"half_day": [40000, 75000], "full_day": [65000, 130000], "tea_break_per_pax": [150, 230], "lunch_per_pax": [480, 780], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.hyatt.com/zh-CN/hotel/china/andaz-shanghai-hongqiao/shaaz",
+      "tags": ["虹桥商务区", "近高铁", "设计感", "适合中型培训", "适合品牌活动"],
+      "training_fit_notes": "虹桥商务区设计型酒店，氛围年轻；适合互联网/消费品/创业领域 200-500 人活动、闭门会。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-meridien-qibao",
+      "name": "上海七宝艾美酒店",
+      "city": "上海",
+      "district": "闵行区",
+      "address": "上海市闵行区名南路1288号",
+      "location": {"lat": 31.157, "lng": 121.359},
+      "brand": "Le Meridien",
+      "star": 5,
+      "venue_class": "upper-upscale",
+      "rooms": [
+        {
+          "name": "艾美大宴会厅",
+          "area_sqm": 1500,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 1200, "classroom": 600, "round_table": 800, "u_shape": null, "cocktail": 1500},
+          "screen": {"type": "LED+projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "low", "notes": "万豪集团大型宴会厅标准"},
+          "price_range_cny": {"half_day": [40000, 80000], "full_day": [65000, 140000], "tea_break_per_pax": [140, 220], "lunch_per_pax": [380, 580], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.marriott.com.cn/hotels/travel/shaom-le-meridien-shanghai-minhang/",
+      "tags": ["七宝", "近虹桥", "大型宴会厅", "适合千人发布会", "适合大型培训"],
+      "training_fit_notes": "七宝核心，万豪集团大型宴会厅；适合 600-1000 人年会、培训、产品发布；车程 15 分钟到虹桥枢纽。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-grand-mercure-hongqiao",
+      "name": "上海虹桥美爵酒店",
+      "city": "上海",
+      "district": "闵行区",
+      "address": "上海市闵行区苏虹路168号",
+      "location": {"lat": 31.197, "lng": 121.341},
+      "brand": "Grand Mercure",
+      "star": 5,
+      "venue_class": "upscale",
+      "rooms": [
+        {
+          "name": "美爵宴会厅",
+          "area_sqm": 600,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 500, "classroom": 240, "round_table": 300, "u_shape": null, "cocktail": 600},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "国际品牌标准硬件"},
+          "price_range_cny": {"half_day": [25000, 50000], "full_day": [40000, 80000], "tea_break_per_pax": [120, 200], "lunch_per_pax": [380, 580], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://all.accor.com/hotel/8765/index.zh.shtml",
+      "tags": ["虹桥商务区", "雅高集团", "适合中型培训", "性价比"],
+      "training_fit_notes": "虹桥商务区，雅高品牌价格友好；适合 200-400 人企业培训、跨区域客户活动。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    },
+    {
+      "id": "shanghai-novotel-atlantis-hongqiao",
+      "name": "上海虹桥郁锦香新世纪宾馆",
+      "city": "上海",
+      "district": "闵行区",
+      "address": "上海市闵行区红松东路800号",
+      "location": {"lat": 31.179, "lng": 121.379},
+      "brand": "Tulip / Louvre Hotels",
+      "star": 5,
+      "venue_class": "upscale",
+      "rooms": [
+        {
+          "name": "新世纪大宴会厅",
+          "area_sqm": 1000,
+          "ceiling_m": null,
+          "pillar_free": true,
+          "capacity": {"theater": 800, "classroom": 400, "round_table": 500, "u_shape": null, "cocktail": 1000},
+          "screen": {"type": "projector", "main_screen_size_m": null, "ground_clearance_m": null, "obstruction_risk": "medium", "notes": "国内五星硬件"},
+          "price_range_cny": {"half_day": [25000, 50000], "full_day": [40000, 80000], "tea_break_per_pax": [100, 180], "lunch_per_pax": [280, 480], "note": "估算区间"}
+        }
+      ],
+      "official_source": "https://www.louvrehotels.com.cn/",
+      "tags": ["虹桥", "性价比", "适合大型培训", "适合长期内训"],
+      "training_fit_notes": "虹桥南向，老牌商务酒店，性价比突出；适合 300-600 人为期多天的内训、考试、培训认证。",
+      "verified": false,
+      "verified_by": null,
+      "updated_at": "2026-05-11"
+    }
+  ]
+}

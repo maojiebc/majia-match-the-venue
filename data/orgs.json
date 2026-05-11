@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1",
+  "updated_at": "2026-05-11",
+  "orgs": [
+    {
+      "id": "ckgsb",
+      "name": "长江商学院",
+      "category": "business-school",
+      "tier": "S",
+      "wechat_official": "长江商学院",
+      "website": "https://www.ckgsb.edu.cn/",
+      "keywords": ["长江商学院", "CKGSB", "EMBA", "DBA", "总裁班"],
+      "weight": 1.0,
+      "notes": "中国本土头部商学院，公开课与企业内训密度高"
+    },
+    {
+      "id": "ceibs",
+      "name": "中欧国际工商学院",
+      "category": "business-school",
+      "tier": "S",
+      "wechat_official": "中欧国际工商学院",
+      "website": "https://www.ceibs.edu/",
+      "keywords": ["中欧", "CEIBS", "EMBA", "Global EMBA"],
+      "weight": 1.0,
+      "notes": "上海校区位于浦东，活动多在校区/张江/陆家嘴酒店"
+    },
+    {
+      "id": "fisf",
+      "name": "复旦泛海国际金融学院",
+      "category": "business-school",
+      "tier": "A",
+      "wechat_official": "复旦泛海国金FISF",
+      "website": "https://www.fisf.fudan.edu.cn/",
+      "keywords": ["复旦泛海", "FISF", "金融EMBA"],
+      "weight": 0.85,
+      "notes": "金融方向，活动多在徐汇/陆家嘴"
+    },
+    {
+      "id": "saif",
+      "name": "上海交大上海高级金融学院",
+      "category": "business-school",
+      "tier": "A",
+      "wechat_official": "上海高级金融学院SAIF",
+      "website": "https://www.saif.sjtu.edu.cn/",
+      "keywords": ["高金", "SAIF", "金融MBA", "金融EMBA"],
+      "weight": 0.85,
+      "notes": "金融方向，活动多在徐汇校区/陆家嘴"
+    },
+    {
+      "id": "hupan",
+      "name": "湖畔创研中心",
+      "category": "business-school",
+      "tier": "S",
+      "wechat_official": "湖畔创研中心",
+      "website": "https://www.hupan.com/",
+      "keywords": ["湖畔大学", "湖畔创研", "之江实验室"],
+      "weight": 1.0,
+      "notes": "原湖畔大学，活动多在杭州，上海偶有公开活动"
+    },
+    {
+      "id": "dedao",
+      "name": "得到",
+      "category": "premium-training",
+      "tier": "S",
+      "wechat_official": "罗辑思维",
+      "website": "https://www.igetget.com/",
+      "keywords": ["得到", "罗辑思维", "得到大学", "得到企业服务", "得到高研院"],
+      "weight": 1.0,
+      "notes": "罗振宇/脱不花体系，企业内训与公开活动密度高"
+    },
+    {
+      "id": "hundun",
+      "name": "混沌学园",
+      "category": "premium-training",
+      "tier": "S",
+      "wechat_official": "混沌学园",
+      "website": "https://www.hundun.cn/",
+      "keywords": ["混沌大学", "混沌学园", "李善友", "创新课"],
+      "weight": 0.95,
+      "notes": "上海有分会，活动多在新天地/淮海路/陆家嘴"
+    },
+    {
+      "id": "lingjiao",
+      "name": "领教工坊",
+      "category": "premium-training",
+      "tier": "S",
+      "wechat_official": "领教工坊",
+      "website": "https://www.lingjiao.org/",
+      "keywords": ["领教工坊", "领教", "私人董事会", "组长"],
+      "weight": 1.0,
+      "notes": "高端私董会，活动多在五星酒店闭门会形式"
+    },
+    {
+      "id": "qingteng",
+      "name": "青腾大学",
+      "category": "premium-training",
+      "tier": "A",
+      "wechat_official": "青腾大学",
+      "website": "https://qingteng.tencent.com/",
+      "keywords": ["青腾大学", "青腾", "腾讯青腾"],
+      "weight": 0.85,
+      "notes": "腾讯系企业家学习项目"
+    },
+    {
+      "id": "hxjs",
+      "name": "华夏基石",
+      "category": "premium-training",
+      "tier": "A",
+      "wechat_official": "华夏基石e洞察",
+      "website": "https://www.chnstone.com.cn/",
+      "keywords": ["华夏基石", "彭剑锋", "苗兆光"],
+      "weight": 0.8,
+      "notes": "管理咨询+培训，活动以闭门高管班为主"
+    },
+    {
+      "id": "hejun",
+      "name": "和君商学",
+      "category": "premium-training",
+      "tier": "A",
+      "wechat_official": "和君商学",
+      "website": "https://www.hejun.com/",
+      "keywords": ["和君", "和君商学院", "王明夫"],
+      "weight": 0.8,
+      "notes": "和君集团下属，公开课与企业内训"
+    },
+    {
+      "id": "mckinsey",
+      "name": "麦肯锡",
+      "category": "consulting",
+      "tier": "S",
+      "wechat_official": "麦肯锡咨询公司",
+      "website": "https://www.mckinsey.com.cn/",
+      "keywords": ["McKinsey", "麦肯锡", "MGI"],
+      "weight": 1.0,
+      "notes": "战略咨询，客户研讨会与发布会多在浦东/陆家嘴"
+    },
+    {
+      "id": "bain",
+      "name": "贝恩",
+      "category": "consulting",
+      "tier": "S",
+      "wechat_official": "BainCompany",
+      "website": "https://www.bain.cn/",
+      "keywords": ["Bain", "贝恩", "贝恩咨询"],
+      "weight": 1.0,
+      "notes": "战略咨询"
+    },
+    {
+      "id": "bcg",
+      "name": "波士顿咨询 BCG",
+      "category": "consulting",
+      "tier": "S",
+      "wechat_official": "BCG波士顿咨询",
+      "website": "https://www.bcg.com/zh-cn/",
+      "keywords": ["BCG", "波士顿咨询", "Boston Consulting"],
+      "weight": 1.0,
+      "notes": "战略咨询"
+    },
+    {
+      "id": "rolandberger",
+      "name": "罗兰贝格",
+      "category": "consulting",
+      "tier": "A",
+      "wechat_official": "罗兰贝格管理咨询",
+      "website": "https://www.rolandberger.com.cn/",
+      "keywords": ["Roland Berger", "罗兰贝格"],
+      "weight": 0.85,
+      "notes": "战略咨询，欧系背景"
+    },
+    {
+      "id": "zhenghedao",
+      "name": "正和岛",
+      "category": "private-board",
+      "tier": "S",
+      "wechat_official": "正和岛",
+      "website": "https://www.zhenghedao.com/",
+      "keywords": ["正和岛", "刘东华", "岛邻"],
+      "weight": 1.0,
+      "notes": "中国本土头部私董会/企业家社区"
+    },
+    {
+      "id": "vistage",
+      "name": "伟事达 Vistage",
+      "category": "private-board",
+      "tier": "A",
+      "wechat_official": "VistageChina",
+      "website": "https://www.vistage.cn/",
+      "keywords": ["Vistage", "伟事达"],
+      "weight": 0.85,
+      "notes": "国际私董会品牌，中国分会主要在上海/深圳"
+    },
+    {
+      "id": "xingdong",
+      "name": "行动教育",
+      "category": "training-contractor",
+      "tier": "A",
+      "wechat_official": "行动教育",
+      "website": "https://www.action-edu.com/",
+      "keywords": ["行动教育", "李践", "行动商学院"],
+      "weight": 0.75,
+      "notes": "上市公司，民营企业内训承接，活动密度极高"
+    },
+    {
+      "id": "boshi",
+      "name": "博石管理咨询",
+      "category": "training-contractor",
+      "tier": "B",
+      "wechat_official": "博石管理咨询",
+      "website": "https://www.boshi.com/",
+      "keywords": ["博石", "标杆企业参访"],
+      "weight": 0.65,
+      "notes": "标杆参访+培训组织，公开活动多"
+    }
+  ]
+}
